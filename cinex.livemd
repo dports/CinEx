@@ -13,7 +13,10 @@ Mix.install(
   config: [
     instructor: [
       adapter: Instructor.Adapters.OpenAI,
-      openai: [api_key: System.fetch_env!("LB_OPENAI_TOKEN")]
+      openai: [
+        api_key: "ollama",
+        api_url: "http://localhost:11434"
+      ]
     ]
   ]
 )
