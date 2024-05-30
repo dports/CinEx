@@ -7,7 +7,7 @@ Mix.install(
   [
     {:kino, "~> 0.12.3"},
     {:instructor, "~> 0.0.5"},
-    {:erlexec, "~> 2.0"},
+    {:erlexec, "~> 2.0.6"},
     {:exterval, "~> 0.2.0"}
   ],
   config: [
